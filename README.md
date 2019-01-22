@@ -5,7 +5,7 @@ Course Materials for Information Processing in Medical Imaging (MPHY0025) - [Moo
 - This repository contains Python tutorials for Part I of the course: Image Registration 
 - The Jupyter notebooks and `utils.py` scripts are Python implementations of Dr Jamie McClelland's MATLAB code. 
 
-Registration workshop 1 <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/registration_workshop_1.ipynb)>
+Registration workshop 1 <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/workshop_1/registration_workshop_1.ipynb)>
 
 Registration workshop 1 example solutions will be available after the workshop.
 
