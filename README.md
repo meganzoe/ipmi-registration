@@ -1,4 +1,4 @@
-# ipmi-registration
+# IPMI: image registration
 
 Course Materials for Information Processing in Medical Imaging (MPHY0025) - [Moodle Page][moodle_page]
 
@@ -6,7 +6,7 @@ Course Materials for Information Processing in Medical Imaging (MPHY0025) - [Moo
 - The Jupyter notebooks and `utils.py` scripts are Python implementations of Dr Jamie McClelland's MATLAB code. 
 
 1. Registration workshop 1 <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/workshop_1/registration_workshop_1.ipynb)>
-   * Registration workshop 1 example solutions will be available after the workshop.
+   * Registration workshop 1 example solutions <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/workshop_1/registration_workshop_1_example_solution.ipynb)>
 2. Registration workshop 2 <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/workshop_2/registration_workshop_2.ipynb)>
    * Registration workshop 2 example solutions will be available after the workshop.
 
