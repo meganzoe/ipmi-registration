@@ -209,3 +209,27 @@ def resampImageWithDefFieldPushInterp(source_img, def_field, interp_method = 'li
     method = interp_method)
   # reshape resampled image to have same size and shape as source image
   return np.reshape(resamp_img, source_img.shape)
+
+def affineMatrixForRotationAboutPoint(theta, p_coords):
+  """
+  function to calculate the affine matrix corresponding to an anticlockwise
+  rotation about a point
+  
+  INPUTS:    theta: the angle of the rotation, specified in degrees
+             p_coords: the 2D coordinates of the point that is the centre of
+                 rotation. p_coords[0] is the x coordinate, p_coords[1] is
+                 the y coordinate
+  
+  OUTPUTS:   aff_mat: a 3 x 3 affine matrix
+  """
+  # convert theta to radians
+  theta = math.pi * float(theta) / 180
+  # form matrices for translations and rotation
+  T1 = np.matrix([[1, 0, -p_coords[0]], [0, 1, -p_coords[1]], [0, 0, 1]])
+  T2 = np.matrix([[1, 0, p_coords[0]], [0, 1, p_coords[1]], [0, 0, 1]])
+  R = np.matrix([[math.cos(theta), -math.sin(theta), 0], \
+      [math.sin(theta), math.cos(theta), 0], \
+      [0, 0, 1]])
+
+  # compose matrices
+  return T2 * R * T1
