@@ -9,6 +9,8 @@ Course Materials for Information Processing in Medical Imaging (MPHY0025) - [Moo
    * Registration workshop 1 example solutions <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/workshop_1/registration_workshop_1_example_solution.ipynb)>
 2. Registration workshop 2 <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/workshop_2/registration_workshop_2.ipynb)>
    * Registration workshop 2 example solutions will be available after the workshop.
+3. Registration workshop 3 <[Open in Colab](https://colab.research.google.com/github/meganzoe/ipmi-registration/blob/master/workshop_3/registration_workshop_3.ipynb)>
+   * Registration workshop 3 example solutions will be available after the workshop.
 
 
 All the notebooks run directly on Google Colab (by clicking the links above). Get started with [Runtime] -> [Run all]. Alternatively, download the ipynb files, then upload them to [Colab](https://colab.research.google.com). 
