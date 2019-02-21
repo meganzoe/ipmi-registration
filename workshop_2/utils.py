@@ -59,7 +59,7 @@ def calcNCC(A,B):
   sig_A = np.nanstd(A, ddof=1)
   sig_B = np.nanstd(B, ddof=1)
   # calculate NCC using nansum to ignore nan values when summing over pixels
-  return np.nansum((A-muA)*(B-mu_B))/(A.size * sig_A * sig_B)
+  return np.nansum((A-mu_A)*(B-mu_B))/(A.size * sig_A * sig_B)
 
 
 def calcSSD(A,B):
